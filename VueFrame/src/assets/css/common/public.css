@@ -1,0 +1,27 @@
+html,
+body {
+    /* 宋体 */
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    /* 浏览器使用看锯齿的方式渲染文字 */
+    -webkit-font-smoothing: antialiased;
+    /* 用灰度抗锯齿渲染文字， */
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    padding: 0px;
+    background-color: #efefef;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    /* 列表无标记 */
+    list-style: none;
+}
+
+input,
+button {
+    border: 0 none;
+    border-radius: 0;
+    outline: none;
+}
